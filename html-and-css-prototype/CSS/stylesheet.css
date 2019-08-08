@@ -7,7 +7,7 @@
 
 body {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
+	color: #A1A1A1;
 	line-height: 1.4;
 }
 
@@ -40,3 +40,129 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.content {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h5 {
+	background-color: #424242;
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 15px;
+	color: white;
+	width: 250px;
+	height: 50px;
+
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid #424242;
+	font-size: 0;
+	line-height: 0;
+	margin-left: 180px;
+	margin-top: -1px;
+}
+
+.goal {
+	width: 250px;
+  	height: 13px;
+  	border-radius: 3px solid; 
+  	border: 1px solid #eaeaea;
+  	background-color: #F9F9F9;
+  	margin-top: 5px;
+}
+
+.box {
+	font-size: .75em;
+	border: 1px solid #eaeaea;
+	height: 200px;
+	width:	250px;
+	font-family: sans-serif;
+	text-align: justify;
+	padding: 15px;
+
+}
+
+p {
+	padding-right: 20px;
+}
+
+.btn {
+	width: 120px;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid #eaeaea;
+	color: #8E8E8E;
+	background: #FAFAFA;
+	margin-bottom: 10px;
+}
+
+
+div.text{
+position:relative;
+}
+
+div.text input{
+  padding-left: 15px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+}
+
+div.text:after{
+position: absolute;
+    left: 6px;
+    top: 11px;
+    content: '$';
+    color: gray;
+    font-size: 15px;
+}
+
+.donatebtn{
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #1CBC2C;
+	background-color: #1CBC2C;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #20A1D4;
+	font-family: Rockwell;
+
+}
+
+.space {
+    margin-left: 15px;
+}
+
+
+progress::-moz-progress-bar {
+  background: #EF5F3C;
+}
+
+progress::-webkit-progress-bar {
+  background: #EF5F3C;
+}
